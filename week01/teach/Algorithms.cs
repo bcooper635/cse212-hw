@@ -42,6 +42,7 @@ public static class Algorithms {
 
         return count;
     }
+    //i predict the performance of this algorithm to be o(n), since there is only one n and one line of code associated with it.
 
     /// <summary>
     /// The count variable is keeping track of the amount
@@ -57,6 +58,8 @@ public static class Algorithms {
 
         return count;
     }
+    //i predict the performance of this algorithm to be o(n) as well. The first for loop does not contain a body, so we should have O(n*0+n*1)
+    //in any case even if it did havw a bdy the coefficient of n would be 2 and the coefficient would get dropped
 
     /// <summary>
     /// The count variable is keeping track of the amount
@@ -76,4 +79,5 @@ public static class Algorithms {
 
         return count;
     }
+    //i predict the size of this algorithm to be O(n-1) since the size of the algorithm is 1 less than the size of n
 }
